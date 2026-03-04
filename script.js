@@ -20,3 +20,10 @@ function calculate() {
         display.value = "Error";
     }
 }
+const toggleBtn =
+document.getElementByld("themeToggle");
+
+toggleBtn.addEventListener("click",() => {
+    
+    document.body.classList.toggle("dark-mode");
+});
